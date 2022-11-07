@@ -7,7 +7,7 @@
 [node name="Node" type="Node"]
 
 [node name="Pokeball" type="Sprite" parent="."]
-position = Vector2( 285, 284 )
+position = Vector2( 108, 642 )
 scale = Vector2( 3, 3 )
 texture = ExtResource( 2 )
 
