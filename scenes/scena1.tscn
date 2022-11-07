@@ -23,6 +23,6 @@ scale = Vector2( 10, 10 )
 texture = ExtResource( 2 )
 
 [node name="Pokeball 2" type="Sprite" parent="."]
-position = Vector2( 413, 371 )
+position = Vector2( 499, 595 )
 scale = Vector2( 7, 7 )
 texture = ExtResource( 2 )
