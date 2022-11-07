@@ -7,7 +7,7 @@
 [node name="Node" type="Node"]
 
 [node name="Pokeball" type="Sprite" parent="."]
-position = Vector2( 285, 284 )
+position = Vector2( 108, 642 )
 scale = Vector2( 3, 3 )
 texture = ExtResource( 2 )
 
@@ -16,6 +16,11 @@ position = Vector2( 285, 456 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 1 )
 script = ExtResource( 3 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 133, 444 )
+scale = Vector2( 10, 10 )
+texture = ExtResource( 2 )
 
 [node name="Pokeball 2" type="Sprite" parent="."]
 position = Vector2( 413, 371 )
