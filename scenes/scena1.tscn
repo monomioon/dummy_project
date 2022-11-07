@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://entities/player/walk-down-2.png" type="Texture" id=1]
+[ext_resource path="res://entities/pokeball.png" type="Texture" id=2]
+[ext_resource path="res://entities/player/player.gd" type="Script" id=3]
+
+[node name="Node" type="Node"]
+
+[node name="Pokeball" type="Sprite" parent="."]
+position = Vector2( 285, 284 )
+scale = Vector2( 3, 3 )
+texture = ExtResource( 2 )
+
+[node name="Player" type="Sprite" parent="."]
+position = Vector2( 453, 262 )
+scale = Vector2( 4, 4 )
+texture = ExtResource( 1 )
+script = ExtResource( 3 )
